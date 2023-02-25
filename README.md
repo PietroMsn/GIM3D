@@ -8,7 +8,7 @@ Musoni, P. and Melzi, S. and Castellani, U., GIM3D: A 3D dataset for garment seg
 To download the dataset: [Download Dataset](https://univr-my.sharepoint.com/:f:/g/personal/pietro_musoni_univr_it/Es41qfco4zBKqx6ovPfcg5MBUlI9PYklqVdHpMerECM2Kw?e=TlDy71)
 
 ## Contents
-* [Data format](https://github.com/PietroMsn/GIM3D#Data)
+* [Data](https://github.com/PietroMsn/GIM3D#Data)
 * [Quick-start](https://github.com/PietroMsn/GIM3D#Quick-start)
 * [Requirements](https://github.com/PietroMsn/GIM3D#requirements)
 * [License](https://github.com/PietroMsn/GIM3D#license)
@@ -16,7 +16,7 @@ To download the dataset: [Download Dataset](https://univr-my.sharepoint.com/:f:/
 
  
  
-## Data format
+## Data
 ```
 Root_dir
   |_______Outfit Category
