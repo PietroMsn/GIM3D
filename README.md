@@ -16,7 +16,7 @@ To download the dataset: [Download Dataset](https://univr-my.sharepoint.com/:f:/
 
  
  
-## Data
+## Data format
 ```
 Root_dir
   |_______Outfit Category
