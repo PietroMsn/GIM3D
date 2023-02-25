@@ -5,7 +5,7 @@ Musoni, P. and Melzi, S. and Castellani, U., GIM3D: A 3D dataset for garment seg
 <img src="teaser_def.png"
 </p>
 
-For the access to the dataset write to Pietro Musoni: pietro.musoni@univr.it
+To download the dataset: [Download Dataset](https://univr-my.sharepoint.com/:f:/g/personal/pietro_musoni_univr_it/Es41qfco4zBKqx6ovPfcg5MBUlI9PYklqVdHpMerECM2Kw?e=TlDy71)
 
 ## Contents
 * [Quick-start](https://github.com/PietroMsn/GIM3D#Quick-start)
