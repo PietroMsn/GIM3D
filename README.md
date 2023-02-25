@@ -8,11 +8,39 @@ Musoni, P. and Melzi, S. and Castellani, U., GIM3D: A 3D dataset for garment seg
 To download the dataset: [Download Dataset](https://univr-my.sharepoint.com/:f:/g/personal/pietro_musoni_univr_it/Es41qfco4zBKqx6ovPfcg5MBUlI9PYklqVdHpMerECM2Kw?e=TlDy71)
 
 ## Contents
+* [Data format](https://github.com/PietroMsn/GIM3D#Data format)
 * [Quick-start](https://github.com/PietroMsn/GIM3D#Quick-start)
 * [Requirements](https://github.com/PietroMsn/GIM3D#requirements)
 * [License](https://github.com/PietroMsn/GIM3D#license)
 * [Acknowledgements](https://github.com/PietroMsn/GIM3D#acknowledgements)
-  
+
+ 
+ 
+## Data format
+```
+Root_dir
+  |_______Outfit Category
+                |_________subject number
+                                |___________ *_merged_manifold_decimated.ply
+                                |___________ *_segmentation_data.txt
+                                |___________ *_segmentation_labels.mat
+```
+
+For each subject directory there are three files:
+- *_merged_manifold_decimated.ply that is the triangular mesh of the 3D model
+- *_segmentation_data.txt that contains for each line the 7 numbers that we will explain below
+- *_segmentation_labels.mat that is a matlab data file (radable through python by using scipy.io) containing the bin and the tri labels as explained in the paper
+
+Each line of the "*_segmentation_data.txt" file has 7 numbers, for each vertex of the model.
+Example:
+```
+0.482615 1.230420 0.026307 -0.953433 -0.173879 -0.246437 0.000000
+...
+0.711867 1.658515 1.071912 0.065284 0.972992 0.221414 1.000000
+0.722283 1.660060 1.061142 0.055423 0.981116 0.185309 1.000000
+```
+The first three numbers are the three coordinates for each vertex of the model, the second three numbers specifies the normal for each vertex, the last number is the label for the vertex.
+
 ## Quick-start  
 
   
