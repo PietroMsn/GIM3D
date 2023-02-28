@@ -43,7 +43,7 @@ The first three numbers are the three coordinates for each vertex of the model, 
 
 ## Quick-start  
 
-  
+The code for the creation of new poses will be available soon...
   
 ## Requirements
 
