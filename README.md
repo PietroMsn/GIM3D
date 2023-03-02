@@ -75,3 +75,15 @@ ISBN = {978-3-03868-191-5},
 DOI = {10.2312/stag.20221252}
 }
 ```
+
+The original unmerged 3D models comes from [CLOTH3D](https://chalearnlap.cvc.uab.cat/dataset/38/description/) dataset:
+```
+@inproceedings{bertiche2020cloth3d,
+  title={CLOTH3D: Clothed 3D Humans},
+  author={Bertiche, Hugo and Madadi, Meysam and Escalera, Sergio},
+  booktitle={European Conference on Computer Vision},
+  pages={344--359},
+  year={2020},
+  organization={Springer}
+}
+```
