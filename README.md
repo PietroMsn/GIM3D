@@ -9,7 +9,7 @@ GIM3D (Garments In Motion 3D) is a synthetic dataset of clothed 3D human charact
 Musoni, P. and Melzi, S. and Castellani, U., GIM3D: A 3D dataset for garment segmentation, STAG 2022
 
 To download the dataset: [Download Dataset](https://univr-my.sharepoint.com/:f:/g/personal/pietro_musoni_univr_it/Es41qfco4zBKqx6ovPfcg5MBUlI9PYklqVdHpMerECM2Kw?e=TlDy71)
-
+The conference paper: [Paper](https://diglib.eg.org/bitstream/handle/10.2312/stag20221252/021-028.pdf)
 ## Contents
 * [Data](https://github.com/PietroMsn/GIM3D#Data)
 * [Quick-start](https://github.com/PietroMsn/GIM3D#Quick-start)
