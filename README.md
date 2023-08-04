@@ -11,6 +11,7 @@ Musoni, P. and Melzi, S. and Castellani, U., GIM3D: A 3D dataset for garment seg
 To download the dataset: [Download Dataset](https://univr-my.sharepoint.com/:f:/g/personal/pietro_musoni_univr_it/Es41qfco4zBKqx6ovPfcg5MBUlI9PYklqVdHpMerECM2Kw?e=TlDy71)
 
 The conference paper: [Paper](https://diglib.eg.org/bitstream/handle/10.2312/stag20221252/021-028.pdf)
+The journal paper: [Paper]([https://diglib.eg.org/bitstream/handle/10.2312/stag20221252/021-028.pdf](https://www.sciencedirect.com/science/article/pii/S1524070323000176))
 ## Contents
 * [Data](https://github.com/PietroMsn/GIM3D#Data)
 * [Quick-start](https://github.com/PietroMsn/GIM3D#Quick-start)
@@ -64,7 +65,21 @@ This work is partially supported by the project of the Italian Ministry of Educa
 
 If you use this code and/or data, please cite:
 ```
-@inproceedings {10.2312:stag.20221252,
+@article{musoni2023gim3dplus,
+title = {GIM3D plus: A labeled 3D dataset to design data-driven solutions for dressed humans},
+journal = {Graphical Models},
+volume = {129},
+pages = {101187},
+year = {2023},
+issn = {1524-0703},
+doi = {https://doi.org/10.1016/j.gmod.2023.101187},
+url = {https://www.sciencedirect.com/science/article/pii/S1524070323000176},
+author = {Pietro Musoni and Simone Melzi and Umberto Castellani},
+}
+```
+and
+```
+@inproceedings {musoni2022gim3d,
 booktitle = {Smart Tools and Applications in Graphics - Eurographics Italian Chapter Conference},
 editor = {Cabiddu, Daniela and Schneider, Teseo and Allegra, Dario and Catalano, Chiara Eva and Cherchi, Gianmarco and Scateni, Riccardo},
 title = {{GIM3D: A 3D Dataset for Garment Segmentation}},
