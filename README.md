@@ -10,6 +10,8 @@ Musoni, P. and Melzi, S. and Castellani, U., GIM3D: A 3D dataset for garment seg
 
 Musoni, P. and Melzi, S. and Castellani, U., GIM3D plus: A labeled 3D dataset to design data-driven solutions for dressed humans, Graphical Models 2023
 
+## Download and Papers
+
 To download the dataset: [Download Dataset](https://univr-my.sharepoint.com/:f:/g/personal/pietro_musoni_univr_it/Es41qfco4zBKqx6ovPfcg5MBUlI9PYklqVdHpMerECM2Kw?e=TlDy71)
 
 The conference paper: [GIM3D](https://diglib.eg.org/bitstream/handle/10.2312/stag20221252/021-028.pdf)
