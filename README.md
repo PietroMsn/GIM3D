@@ -97,7 +97,7 @@ DOI = {10.2312/stag.20221252}
 }
 ```
 
-The original unmerged 3D models comes from [CLOTH3D](https://chalearnlap.cvc.uab.cat/dataset/38/description/) dataset:
+The original unmerged 3D models come from the [CLOTH3D](https://chalearnlap.cvc.uab.cat/dataset/38/description/) dataset:
 ```
 @inproceedings{bertiche2020cloth3d,
   title={CLOTH3D: Clothed 3D Humans},
