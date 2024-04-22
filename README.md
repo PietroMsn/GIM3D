@@ -12,7 +12,7 @@ Musoni, P. and Melzi, S. and Castellani, U., GIM3D plus: A labeled 3D dataset to
 
 ## Download and Papers
 
-To download the dataset: [Download Dataset](https://univr-my.sharepoint.com/:f:/g/personal/pietro_musoni_univr_it/Es41qfco4zBKqx6ovPfcg5MBUlI9PYklqVdHpMerECM2Kw?e=TlDy71)
+To download the dataset: [Download Dataset](https://univr-my.sharepoint.com/:f:/g/personal/pietro_musoni_univr_it/Es41qfco4zBKqx6ovPfcg5MB17zDTK9HbyAYjOkExq6Www?e=LkmbRQ)
 
 The conference paper: [GIM3D](https://diglib.eg.org/bitstream/handle/10.2312/stag20221252/021-028.pdf)
 
