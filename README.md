@@ -38,8 +38,9 @@ Root_dir
 
 For each subject directory there are three files:
 - *_merged_manifold_decimated.ply that is the triangular mesh of the 3D model
-- *_segmentation_data.txt that contains for each line the 7 numbers that we will explain below
+- *_segmentation_data.txt that contains for each line the 7 numbers that we will explain below (binary labels: body-clothes)
 - *_segmentation_labels.mat that is a matlab data file (radable through python by using scipy.io) containing the bin and the tri labels as explained in the paper
+- *.txt and *_segmentation_data_tri.txt containing the same format of segmentation_data.txt but with different labels for upper and lower clothes.
 
 Each line of the "*_segmentation_data.txt" file has 7 numbers, for each vertex of the model.
 Example:
