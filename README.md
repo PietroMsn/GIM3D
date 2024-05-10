@@ -49,7 +49,9 @@ Example:
 0.711867 1.658515 1.071912 0.065284 0.972992 0.221414 1.000000
 0.722283 1.660060 1.061142 0.055423 0.981116 0.185309 1.000000
 ```
-The first three numbers are the three coordinates for each vertex of the model, the second three numbers specifies the normal for each vertex, the last number is the label for the vertex.
+The first three numbers are the three coordinates for each vertex of the model, the second three numbers specifies the normal for each vertex, the last number is the label for the vertex. The label is 0 for the body and 1 for the clothes. This format is compatible for the implementation of pointnet and pointnet++ (e.g. with the pytorch [PointNet and PointNet++ Code](https://github.com/yanx27/Pointnet_Pointnet2_pytorch)). Other formats (DiffusionNet, Point-Transformer) are available on request (email: pietro.musoni@univr.it).
+
+In each category the directory "labels_tri"  contains the .txt files formatted as explained above but the lables indicates 0 for the body, 1 for the upper clothes and 2 for the lower clothes (e.g. in tshirts_trousers/labels_tri 1 stands for the tshirt vertices and 2 for the trousers).
 
 ## Quick-start  
 
