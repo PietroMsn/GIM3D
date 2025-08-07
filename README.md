@@ -1,6 +1,6 @@
 # Scanned GIM3D
 
-GIM3D (Garments In Motion 3D) is a synthetic dataset of clothed 3D human characters in different poses. The over 4000 3D models in this dataset are produced by a physical simulation of clothes with different fabrics, sizes, and tightness, using animated human avatars having a large variety of shapes. Our dataset is composed of single meshes created to simulate 3D scans, with labels for the separate clothes and the visible body parts. See the original paper for more info.
+Scanned GIM3D is an extension of GIM3D (Garments In Motion 3D) plus, a synthetic dataset of clothed 3D human characters in different poses. The over 3000 3D models in this dataset are produced by a physical simulation of clothes with different fabrics, sizes, and tightness, using animated human avatars having a large variety of shapes. Our dataset is composed of single meshes created to simulate 3D scans, with labels for the separate clothes and the visible body parts. Respect to GIM3D we use a synthetic scanner simulator to reproduce the 3D scan effect to our synthetic pointclouds. The dataset include also all the labels to perform the multilayer segmentation described in the paper "Point Cloud Segmentation for 3d Clothed Human Layering", including the body adeherence label. See the paper for more info.
 
 <p align="center">
 <img src="pipeline_dataset2.png"
