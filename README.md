@@ -14,7 +14,7 @@ Garavaso, D., and Masi, F., and Musoni, P. , S. and Castellani, U., Point Cloud 
 
 To download the dataset: [Download Dataset](https://univr-my.sharepoint.com/:f:/g/personal/pietro_musoni_univr_it/EjZ0-1KtCn1NhqmtcdkuDngBK5l3gXg5kc-_8AZ3N0sBZA?e=AU90nM)
 
-Pre-print paper: [GIM3D](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5258952)
+Pre-print paper: [Point Cloud Segmentation for 3d Clothed Human Layering](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5258952)
 
 ## Contents
 * [Data](https://github.com/PietroMsn/GIM3D#Data)
