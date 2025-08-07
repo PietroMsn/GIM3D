@@ -55,13 +55,10 @@ The first three numbers are the three coordinates for each vertex of the model, 
 
 In each category the directory "labels_tri"  contains the .txt files formatted as explained above but the lables indicates 0 for the body, 1 for the upper clothes and 2 for the lower clothes (e.g. in tshirts_trousers/labels_tri 1 stands for the tshirt vertices and 2 for the trousers).
 
-## Segmentation-code  
-
+## Dataset-creation
 
 The code for the creation of new poses will be available soon...
   
-## Requirements
-
   
 ## License
 Please check the license terms (also of third parts software) before downloading and/or using the code, the models and the data. 
