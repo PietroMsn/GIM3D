@@ -6,17 +6,16 @@ GIM3D (Garments In Motion 3D) is a synthetic dataset of clothed 3D human charact
 <img src="teaser_def.png"
 </p>
 
-Musoni, P. and Melzi, S. and Castellani, U., GIM3D: A 3D dataset for garment segmentation, STAG 2022 
+Garavaso, D., and Masi, F., and Musoni, P. , S. and Castellani, U., Point Cloud Segmentation for 3d Clothed Human Layering, 3DOR 2025
 
-Musoni, P. and Melzi, S. and Castellani, U., GIM3D plus: A labeled 3D dataset to design data-driven solutions for dressed humans, Graphical Models 2023
+
 
 ## Download and Papers
 
-To download the dataset: [Download Dataset](https://univr-my.sharepoint.com/:f:/g/personal/pietro_musoni_univr_it/Es41qfco4zBKqx6ovPfcg5MB17zDTK9HbyAYjOkExq6Www?e=LkmbRQ)
+To download the dataset: [Download Dataset](https://univr-my.sharepoint.com/:f:/g/personal/pietro_musoni_univr_it/EjZ0-1KtCn1NhqmtcdkuDngBK5l3gXg5kc-_8AZ3N0sBZA?e=AU90nM)
 
-The conference paper: [GIM3D](https://diglib.eg.org/bitstream/handle/10.2312/stag20221252/021-028.pdf)
+Pre-print paper: [GIM3D](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5258952)
 
-The journal paper: [GIM3Dplus](https://www.sciencedirect.com/science/article/pii/S1524070323000176)
 ## Contents
 * [Data](https://github.com/PietroMsn/GIM3D#Data)
 * [Quick-start](https://github.com/PietroMsn/GIM3D#Quick-start)
@@ -50,13 +49,11 @@ Example:
 0.711867 1.658515 1.071912 0.065284 0.972992 0.221414 1.000000
 0.722283 1.660060 1.061142 0.055423 0.981116 0.185309 1.000000
 ```
-The first three numbers are the three coordinates for each vertex of the model, the second three numbers specifies the normal for each vertex, the last number is the label for the vertex. The label is 0 for the body and 1 for the clothes. This format is compatible for the implementation of pointnet and pointnet++ (e.g. with the pytorch [PointNet and PointNet++ Code](https://github.com/yanx27/Pointnet_Pointnet2_pytorch)). Other formats (DiffusionNet, Point-Transformer) are available on request (email: pietro.musoni@univr.it).
 
-In each category the directory "labels_tri"  contains the .txt files formatted as explained above but the lables indicates 0 for the body, 1 for the upper clothes and 2 for the lower clothes (e.g. in tshirts_trousers/labels_tri 1 stands for the tshirt vertices and 2 for the trousers).
 
 ## Quick-start  
 
-The code for the creation of new poses will be available soon...
+
   
 ## Requirements
 
@@ -100,7 +97,7 @@ DOI = {10.2312/stag.20221252}
 }
 ```
 
-The original unmerged 3D models come from the [CLOTH3D](https://chalearnlap.cvc.uab.cat/dataset/38/description/) dataset:
+The original 3D models come from the [CLOTH3D](https://chalearnlap.cvc.uab.cat/dataset/38/description/) dataset:
 ```
 @inproceedings{bertiche2020cloth3d,
   title={CLOTH3D: Clothed 3D Humans},
