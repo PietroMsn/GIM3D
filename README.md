@@ -46,9 +46,9 @@ For each subject directory there are six .npy files:
 - smpl.npy: (6000) array containing the ground truth labels (body/no-body) of the scanned point-cloud (see the paper for more details)
 
 
-## Quick-start  
+## Segmentation-code  
 
-
+To reproduce the segmentation results in the paper refer to [Multilayer Code](https://github.com/PietroMsn/Extended-Pointcept-Multilayer-Segmentation). This is a fork of the original code of PointCept (https://github.com/Pointcept/Pointcept) adapted to multilayer clothed human segmentation.
   
 ## License
 Please check the license terms (also of third parts software) before downloading and/or using the code, the models and the data. 
