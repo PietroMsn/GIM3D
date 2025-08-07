@@ -1,9 +1,9 @@
-# GIM3D: A 3D dataset for garment segmentation
+# Scanned GIM3D
 
 GIM3D (Garments In Motion 3D) is a synthetic dataset of clothed 3D human characters in different poses. The over 4000 3D models in this dataset are produced by a physical simulation of clothes with different fabrics, sizes, and tightness, using animated human avatars having a large variety of shapes. Our dataset is composed of single meshes created to simulate 3D scans, with labels for the separate clothes and the visible body parts. See the original paper for more info.
 
 <p align="center">
-<img src="teaser_def.png"
+<img src="pipeline_dataset2.png"
 </p>
 
 Garavaso, D., and Masi, F., and Musoni, P. , S. and Castellani, U., Point Cloud Segmentation for 3d Clothed Human Layering, 3DOR 2025
