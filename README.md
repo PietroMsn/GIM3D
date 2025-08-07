@@ -28,36 +28,27 @@ Pre-print paper: [Point Cloud Segmentation for 3d Clothed Human Layering](https:
 ## Data
 ```
 Root_dir
-  |_______Outfit Category
-                |_________subject number
-                                |___________ *_merged_manifold_decimated.ply
-                                |___________ *_segmentation_data.txt
-                                |___________ *_segmentation_labels.mat
+|_________subject folder
+                |___________ coord.npy (6000, 3) array
+                |___________ normal.npy: (6000, 3) array
+                |___________ segment.npy: (6000) array
+                |___________ coord_smpl.npy (6000, 3) array
+                |___________ normal_smpl.npy: (6000, 3)
+                |___________ smpl.npy (6000, 3) array
 ```
 
-For each subject directory there are three files:
-- *_merged_manifold_decimated.ply that is the triangular mesh of the 3D model
-- *_segmentation_data.txt that contains for each line the 7 numbers that we will explain below (binary labels: body-clothes)
-- *_segmentation_labels.mat that is a matlab data file (radable through python by using scipy.io) containing the bin and the tri labels as explained in the paper
-- *.txt and *_segmentation_data_tri.txt containing the same format of segmentation_data.txt but with different labels for upper and lower clothes.
-
-Each line of the "*_segmentation_data.txt" file has 7 numbers, for each vertex of the model.
-Example:
-```
-0.482615 1.230420 0.026307 -0.953433 -0.173879 -0.246437 0.000000
-...
-0.711867 1.658515 1.071912 0.065284 0.972992 0.221414 1.000000
-0.722283 1.660060 1.061142 0.055423 0.981116 0.185309 1.000000
-```
+For each subject directory there are six .npy files:
+- coord.npy: (6000, 3) array containing the points of the scanned mesh
+- normal.npy: (6000, 3) array containing the normals of the scanned mesh
+- segment.npy: (6000) array containing the groundtruth labels of the segmented scanned mesh
+- coord_smpl.npy: (6000, 3) array containing the ground truth coordinates of the underlying smpl model
+- normal_smpl.npy (6000, 3) array containing the normals of the underlying smpl model
+- smpl.npy: (6000) array containing the ground truth labels (body/no-body) of the scanned point-cloud (see the paper for more details)
 
 
 ## Quick-start  
 
 
-  
-## Requirements
-
-  
   
 ## License
 Please check the license terms (also of third parts software) before downloading and/or using the code, the models and the data. 
