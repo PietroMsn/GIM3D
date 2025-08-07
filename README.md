@@ -14,11 +14,8 @@ Musoni, P. and Melzi, S. and Castellani, U., GIM3D plus: A labeled 3D dataset to
 
 To download the dataset: [Download Dataset](https://univr-my.sharepoint.com/:f:/g/personal/pietro_musoni_univr_it/Es41qfco4zBKqx6ovPfcg5MB17zDTK9HbyAYjOkExq6Www?e=LkmbRQ)
 
-<<<<<<< HEAD
-Pre-print paper: [Point Cloud Segmentation for 3d Clothed Human Layering](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5258952)
-=======
 The conference paper: [GIM3D](https://diglib.eg.org/bitstream/handle/10.2312/stag20221252/021-028.pdf)
->>>>>>> parent of b264bb2 (Update README.md)
+
 
 The journal paper: [GIM3Dplus](https://www.sciencedirect.com/science/article/pii/S1524070323000176)
 ## Contents
@@ -33,24 +30,13 @@ The journal paper: [GIM3Dplus](https://www.sciencedirect.com/science/article/pii
 ## Data
 ```
 Root_dir
-|_________subject folder
-                |___________ coord.npy (6000, 3) array
-                |___________ normal.npy: (6000, 3) array
-                |___________ segment.npy: (6000) array
-                |___________ coord_smpl.npy (6000, 3) array
-                |___________ normal_smpl.npy: (6000, 3)
-                |___________ smpl.npy (6000, 3) array
+  |_______Outfit Category
+                |_________subject number
+                                |___________ *_merged_manifold_decimated.ply
+                                |___________ *_segmentation_data.txt
+                                |___________ *_segmentation_labels.mat
 ```
 
-<<<<<<< HEAD
-For each subject directory there are six .npy files:
-- coord.npy: (6000, 3) array containing the points of the scanned mesh
-- normal.npy: (6000, 3) array containing the normals of the scanned mesh
-- segment.npy: (6000) array containing the groundtruth labels of the segmented scanned mesh
-- coord_smpl.npy: (6000, 3) array containing the ground truth coordinates of the underlying smpl model
-- normal_smpl.npy (6000, 3) array containing the normals of the underlying smpl model
-- smpl.npy: (6000) array containing the ground truth labels (body/no-body) of the scanned point-cloud (see the paper for more details)
-=======
 For each subject directory there are three files:
 - *_merged_manifold_decimated.ply that is the triangular mesh of the 3D model
 - *_segmentation_data.txt that contains for each line the 7 numbers that we will explain below (binary labels: body-clothes)
@@ -66,21 +52,16 @@ Example:
 0.722283 1.660060 1.061142 0.055423 0.981116 0.185309 1.000000
 ```
 The first three numbers are the three coordinates for each vertex of the model, the second three numbers specifies the normal for each vertex, the last number is the label for the vertex. The label is 0 for the body and 1 for the clothes. This format is compatible for the implementation of pointnet and pointnet++ (e.g. with the pytorch [PointNet and PointNet++ Code](https://github.com/yanx27/Pointnet_Pointnet2_pytorch)). Other formats (DiffusionNet, Point-Transformer) are available on request (email: pietro.musoni@univr.it).
->>>>>>> parent of b264bb2 (Update README.md)
 
 In each category the directory "labels_tri"  contains the .txt files formatted as explained above but the lables indicates 0 for the body, 1 for the upper clothes and 2 for the lower clothes (e.g. in tshirts_trousers/labels_tri 1 stands for the tshirt vertices and 2 for the trousers).
 
 ## Segmentation-code  
 
-<<<<<<< HEAD
-To reproduce the segmentation results in the paper refer to [Multilayer Code](https://github.com/PietroMsn/Extended-Pointcept-Multilayer-Segmentation). This is a fork of the original code of PointCept (https://github.com/Pointcept/Pointcept) adapted to multilayer clothed human segmentation.
-=======
+
 The code for the creation of new poses will be available soon...
   
 ## Requirements
 
-  
->>>>>>> parent of b264bb2 (Update README.md)
   
 ## License
 Please check the license terms (also of third parts software) before downloading and/or using the code, the models and the data. 
@@ -92,14 +73,6 @@ Any other use, in particular any use for commercial purposes, is prohibited. Thi
 This work is partially supported by the project of the Italian Ministry of Education, Universities and Research (MIUR) ”Dipartimenti di Eccellenza 2018-2022” of the Department of Computer Science of Verona University
 
 If you use this code and/or data, please cite:
-'''
-@article{garavaso5258952point,
-  title={Point Cloud Segmentation for 3d Clothed Human Layering},
-  author={Garavaso, Davide and Masi, Federico and Musoni, Pietro and Castellani, Umberto},
-  journal={Available at SSRN 5258952}
-}
-'''
-and
 ```
 @article{musoni2023gim3dplus,
 title = {GIM3D plus: A labeled 3D dataset to design data-driven solutions for dressed humans},
@@ -113,7 +86,23 @@ url = {https://www.sciencedirect.com/science/article/pii/S1524070323000176},
 author = {Pietro Musoni and Simone Melzi and Umberto Castellani},
 }
 ```
-
+and 
+'''
+and
+```
+@inproceedings {musoni2022gim3d,
+booktitle = {Smart Tools and Applications in Graphics - Eurographics Italian Chapter Conference},
+editor = {Cabiddu, Daniela and Schneider, Teseo and Allegra, Dario and Catalano, Chiara Eva and Cherchi, Gianmarco and Scateni, Riccardo},
+title = {{GIM3D: A 3D Dataset for Garment Segmentation}},
+author = {Musoni, Pietro and Melzi, Simone and Castellani, Umberto},
+year = {2022},
+publisher = {The Eurographics Association},
+ISSN = {2617-4855},
+ISBN = {978-3-03868-191-5},
+DOI = {10.2312/stag.20221252}
+}
+```
+'''
 The original unmerged 3D models come from the [CLOTH3D](https://chalearnlap.cvc.uab.cat/dataset/38/description/) dataset:
 ```
 @inproceedings{bertiche2020cloth3d,
