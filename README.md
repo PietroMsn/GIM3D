@@ -67,7 +67,7 @@ Any other use, in particular any use for commercial purposes, is prohibited. Thi
 
 ## Acknowledgements
   
-This work is partially supported by the project of the Italian Ministry of Education, Universities and Research (MIUR) ”Dipartimenti di Eccellenza 2018-2022” of the Department of Computer Science of Verona University
+This work was supported by the PRIN project nr.202273Z7PZ, titled “Automatic Reconstruction and Interactive simulation of non-rigid shape for computer-aided cloth design (I-CLOTH). The work is also partially supported by the project of the Italian Ministry of Education, Universities and Research (MIUR) ”Dipartimenti di Eccellenza 2018-2022” of the Department of Computer Science of Verona University.
 
 If you use this code and/or data, please cite:
 ```
