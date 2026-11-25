@@ -1,5 +1,7 @@
 # GIM3D
 
+**[Project page](https://pietromsn.github.io/GIM3D/)**: abstract, figures, papers and BibTeX.
+
 GIM3D (Garments In Motion 3D) is a synthetic dataset of clothed 3D human characters in different poses. The over 4000 3D models in this dataset are produced by a physical simulation of clothes with different fabrics, sizes, and tightness, using animated human avatars having a large variety of shapes. Our dataset is composed of single meshes created to simulate 3D scans, with labels for the separate clothes and the visible body parts. See the original paper for more info.
 
 <p align="center">
